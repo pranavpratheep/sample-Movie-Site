@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MovieFlix</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalam&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="images/favicon.ico" />
+  </head>
+  <style>
+    * {
+      font-family: "Kalam", "cursive";
+    }
+    body {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+        url(images/bg.jpg);
+      background-size: 1290px;
+    }
+    .navbar {
+      display: inline-block;
+    }
+    .navbar li {
+      display: inline-block;
+    }
+    .navbar li a {
+      padding: 24px;
+      text-decoration: none;
+      color: white;
+      font-family: "Kalam", "cursive";
+      cursor: pointer;
+    }
+    .navbar li a:hover {
+      color: rgb(237, 200, 155);
+    }
+    .navbar0 img {
+      width: 74px;
+    }
+    .panel {
+      position: absolute;
+      right: 107px;
+      top: 7px;
+    }
+    .name {
+      position: absolute;
+      left: 88px;
+      top: 19px;
+    }
+    .name:hover {
+      transform: translateY(-2px);
+    }
+    .btn {
+      color: rgb(0, 0, 0);
+      background-color: rgb(180, 216, 216);
+      border-radius: 17px;
+      cursor: pointer;
+    }
+    .btn1 {
+      background-color: yellow;
+      position: relative;
+      width: 200px;
+      bottom: 4px;
+      font-size: large;
+      cursor: pointer;
+      border-radius: 14px;
+    }
+    .btn1:hover {
+      background-color: orange;
+    }
+    .btn2 {
+      background-color: yellow;
+      position: relative;
+      width: 200px;
+      bottom: 4px;
+      font-size: large;
+      cursor: pointer;
+      border-radius: 14px;
+    }
+    .btn2:hover {
+      background-color: orange;
+    }
+    .menu {
+      position: absolute;
+      right: 30px;
+      top: 20px;
+      cursor: pointer;
+    }
+    .moviehub {
+      display: inline-block;
+      font-size: large;
+      color: aliceblue;
+      border: 2 px;
+
+      padding: 140px 60px;
+    }
+    .para {
+      font-size: large;
+      position: relative;
+      bottom: 20px;
+    }
+    .para p {
+      margin: auto;
+    }
+    .cardholder {
+      display: inline-block;
+      position: absolute;
+      right: -27px;
+      width: 499px;
+      padding: 11px 76px;
+    }
+    .cards {
+      display: inline-block;
+      background-size: cover;
+      background-position: center;
+      width: 200px;
+      height: 230px;
+      box-sizing: border-box;
+      margin: 10px 10px;
+      border-radius: 9px;
+      cursor: pointer;
+      transition: transform 0.7s;
+    }
+    .cards:hover {
+      transform: translateY(-10px);
+    }
+    .card1 {
+      background-image: url(images/ror.jpg);
+    }
+    .card2 {
+      background-image: url(images/bstra.jpg);
+    }
+    .card3 {
+      background-image: url(images/777.jpg);
+    }
+    .card4 {
+      background-image: url(images/kgf.jpg);
+    }
+    .menu:hover {
+      transform: translateY(-1px);
+    }
+  </style>
+  <body>
+    <div class="navbar0">
+      <img src="images/logo.png" alt="" />
+    </div>
+    <!-- for menu btn -->
+    <div class="menu">
+      <img src="images/menu.png" alt="" />
+    </div>
+    <div class="name"><button class="btn">MOVIE FLIX🍿</button></div>
+    <div class="panel">
+      <ul class="navbar">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">CATEGORY</a></li>
+        <li><a href="#">TRENDING</a></li>
+        <li><a href="#">ABOUT</a></li>
+      </ul>
+    </div>
+    <header>
+      <div class="moviehub">
+        <h1>MovieZHub🎥</h1>
+        <div class="para">
+          <p>Free Movies & TV shows. Always Free. 100% Legal</p>
+          <p>No Subscription Required</p>
+        </div>
+        <button type="button" class="btn1">Start Watching</button>
+        <button type="button" class="btn2">Explore More</button>
+      </div>
+      <div class="cardholder">
+        <div class="cards card1">
+          <!-- <h5>Rorschach</h5> -->
+          <!-- <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex,
+            praesentium?
+          </p> -->
+        </div>
+        <div class="cards card2">
+          <!-- <h5>Brahmāstra</h5> -->
+          <!-- <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex,
+            praesentium?
+          </p> -->
+        </div>
+        <div class="cards card3">
+          <!-- <h5>777 Charlie</h5> -->
+          <!-- <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex,
+            praesentium?
+          </p> -->
+        </div>
+        <div class="cards card4">
+          <!-- <h5>K.G.F: Chapter 2</h5> -->
+          <!-- <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex,
+            praesentium?
+          </p> -->
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
